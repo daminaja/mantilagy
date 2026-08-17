@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "ดูซีรีส์ไทย“สองหัวใจ” EP3 (ตอนที่ 3) HD",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/wowdrama24_final_dark.png",
+    "dark": "/images/wowdrama24_final_dark.png"
+  },
   "navigation": {
     "pages": [
       {
@@ -31,11 +34,32 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "ดูซีรีส์ไทย“สองหัวใจ” EP3 (ตอนที่ 3) HD",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "📌(ดูซีรีส์ไทย!!)“สองหัวใจ Brothers” EP.3 พากย์ไทย UNCUT ดูฟรี ตอนที่ 3 ย้อนหลังครบทุกตอนHD",
+        "pages": [
+          "Ep3"
+        ]
+      },
+      {
+        "group": "💙(ดูซีรีส์!!)“สองหัวใจ” EP.3 ตอนที่ 3 พากย์ไทย-ซับไทย UNCUT ดูฟรี",
+        "pages": [
+          "thailand"
+        ]
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/wowdrama24_final_dark.png",
+    "dark": "/images/wowdrama24_final_dark.png",
+    "href": "https://brothersep3.mintlify.app/"
   },
   "navbar": {
     "links": [
@@ -68,5 +92,11 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "seo": {
+    "metatags": {
+      "google-site-verification": "550eY9-vepmNYQT9nYGKr3LOEPBJGMnEJVjR2QqAxo8"
+    },
+    "indexing": "all"
   }
 }
